@@ -6,6 +6,17 @@ repositories {
     mavenCentral()
 }
 
+ext.libraries = [
+        testing: [
+                'org.testng:testng:6.9.10',
+                'org.mockito:mockito-all:1.10.19'
+        ]
+]
+
+dependencies {
+    testCompile libraries.testing
+}
+
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
