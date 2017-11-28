@@ -1,0 +1,16 @@
+defaultTasks 'build'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+test {
+    useTestNG()
+    systemProperty "file.encoding", "utf-8"
+}
