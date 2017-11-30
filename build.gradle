@@ -15,6 +15,7 @@ ext.libraries = [
 
 dependencies {
     testCompile libraries.testing
+    compile 'fr.inria.gforge.spoon:spoon-core:6.0.0'
 }
 
 tasks.withType(JavaCompile) {
