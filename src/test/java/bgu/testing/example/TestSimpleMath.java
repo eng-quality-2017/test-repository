@@ -4,7 +4,7 @@
  * Date: 28/11/2017
  * Time: 09:54
  */
-package bgu.tests.example;
+package bgu.testing.example;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

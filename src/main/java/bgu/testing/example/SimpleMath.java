@@ -4,7 +4,7 @@
  * Date: 28/11/2017
  * Time: 09:52
  */
-package bgu.tests.example;
+package bgu.testing.example;
 
 public class SimpleMath {
 

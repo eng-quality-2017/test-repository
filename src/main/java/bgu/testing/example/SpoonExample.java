@@ -4,7 +4,7 @@
  * Date: 29/11/2017
  * Time: 08:14
  */
-package bgu.tests.example;
+package bgu.testing.example;
 
 import spoon.Launcher;
 import spoon.reflect.CtModel;
@@ -21,7 +21,7 @@ public class SpoonExample {
 
     public static void main(String[] args) {
         Launcher launcher = new Launcher();
-        launcher.addInputResource("src/main/java/bgu/tests/example/SpoonExample.java");
+        launcher.addInputResource("src/main/java/bgu/testing/example/SpoonExample.java");
         launcher.getEnvironment().setAutoImports(true);
         launcher.getEnvironment().setNoClasspath(true);
 
